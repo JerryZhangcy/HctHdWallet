@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/li_bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/common_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/common_back_btn" />
+
+        <TextView
+            android:id="@+id/common_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/create_wallet"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF06369C"
+        android:paddingBottom="5dp"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:text="@string/create_wallet_notifaction"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/create_wallet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/create_wallet_name"
+        android:maxLength="12"
+        android:textColor="@color/dark_gray"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/create_wallet_pws"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/create_wallet_pws"
+        android:inputType="textWebPassword"
+        android:maxLength="8"
+        android:textColor="@color/dark_gray"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/create_wallet_pws_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/create_wallet_pws_confirm"
+        android:inputType="textWebPassword"
+        android:maxLength="8"
+        android:textColor="@color/dark_gray"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp">
+
+        <CheckBox
+            android:id="@+id/create_wallet_checbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/licence_notification_short"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/create_wallet_to_licence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/licence_notification_high"
+            android:textColor="@color/sky_blue"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/create_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_button_bg"
+        android:enabled="false"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/create_wallet"
+        android:textColor="@android:color/white" />
+</LinearLayout>

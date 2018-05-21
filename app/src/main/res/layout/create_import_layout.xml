@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/create_or_import_bg">
+
+    <TextView
+        android:id="@+id/create_import_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/create_import_title"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/create_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/create_import_title"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_circle_button_bg"
+        android:text="@string/create_wallet"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/import_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/create_wallet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_circle_button_bg"
+        android:text="@string/import_wallet"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

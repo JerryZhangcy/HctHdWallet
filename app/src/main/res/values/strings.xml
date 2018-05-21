@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">虚拟钱包</string>
+    <string name="licence_title">服务及隐私条款</string>
+    <string name="licence_notification">我已经仔细阅读并同意以上条款</string>
+    <string name="licence_notification_short">我已经仔细阅读并同意</string>
+    <string name="licence_notification_high">服务及隐私条款</string>
+    <string name="continue_str">继续</string>
+    <string name="create_wallet">创建钱包</string>
+    <string name="import_wallet">导入钱包</string>
+    <string name="create_import_title">您的第一个智能数字钱包</string>
+    <string name="create_wallet_notifaction">"。密码用于保护私钥和交易授权，强度非常重要 \n。本钱包不存储密码，也无法帮您找回密码，请务必牢记"</string>
+    <string name="create_wallet_name">钱包名称</string>
+    <string name="create_wallet_pws">密码(请输入8个字符)</string>
+    <string name="create_wallet_pws_confirm">重复密码</string>
+    <string name="create_wallet_null">钱包名称或密码不能为空</string>
+    <string name="create_wallet_pws_length">钱包密码长度需要8位字符</string>
+    <string name="create_wallet_pws_not_match">两次密码不匹配，请重新输入</string>
+    <string name="create_wallet_dialog_title">警告</string>
+    <string name="create_wallet_dialog_ok">确认</string>
+
+    <string name="backup_wallet">备份钱包</string>
+    <string name="backup_wallet_start">最后一步：立即备份你的钱包！</string>
+    <string name="backup_wallet_detailed">备份钱包：导出【助记词】并抄写到安全的地方，千万不要保存到网络上。然后尝试转入转出小额资产开始使用。</string>
+    
+    <string name="backup_mnemonic">备份助记词</string>
+    <string name="backup_mnemonic_title">抄写下你的钱包助记词</string>
+    <string name="backup_mnemonic_detailed">助记词用于恢复钱包或者重置钱包密码，将它准确的抄写到纸上，并存放在只有你知道的安全的地方。</string>
+    <string name="backup_mnemonic_waring_title">请勿拍照或截图</string>
+    <string name="backup_mnemonic_waring_msg">如果有人获取你的助记词将直接获取你的资产！请抄写下助记词并存放在安全的地方。</string>
+    <string name="backup_mnemonic_waring_btn">知道了</string>
+    <string name="backup_mnemonic_next">下一步</string>
+</resources>
